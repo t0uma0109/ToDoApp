@@ -6,6 +6,7 @@ const input = document.querySelector("input");
 const addTodoBtn = document.querySelector("#add-todo-btn");
 
 addTodoBtn.addEventListener("click", function () {
+  //ulタグ取得
   const ul = document.querySelector(".todo-list-area");
   console.log(ul);
 
