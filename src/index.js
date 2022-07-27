@@ -28,7 +28,7 @@ addTodoBtn.addEventListener("click", function () {
   const deleteBtn = document.createElement("button");
   deleteBtn.textContent = "削除";
 
-  //liにぶち込む
+  //liにぶち込む!
   li.appendChild(compleateBtn);
   li.appendChild(deleteBtn);
 
