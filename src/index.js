@@ -10,7 +10,7 @@ addTodoBtn.addEventListener("click", function () {
   const ul = document.querySelector(".todo-list-area");
   console.log(ul);
 
-  //liタグ作成
+  //liタグ作成aaa
   const li = document.createElement("li");
   li.classList.add("todo-list");
 
