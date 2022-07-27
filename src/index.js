@@ -14,6 +14,7 @@ addTodoBtn.addEventListener("click", function () {
   const li = document.createElement("li");
   li.classList.add("todo-list");
 
+  //pタグ作成
   const p = document.createElement("p");
   p.textContent = input.value;
   console.log(p);
